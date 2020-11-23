@@ -1,0 +1,9 @@
+{
+    "orgName": "quick-start-demo",
+    "edition": "Enterprise",
+    "settings": {
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        }
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Oct 10, 2020 4:54 PM",
+        "testExecutionTime": "30 ms",
+        "testTotalTime": "30 ms",
+        "commandTime": "4447 ms",
+        "hostname": "https://efficiency-inspiration-5373.cs41.my.salesforce.com/",
+        "orgId": "00D55000000Ib7AEAS",
+        "username": "test-ecxjsxmknsmv@example.com",
+        "testRunId": "70755000025vsVC",
+        "userId": "00555000006KpXXAA0",
+        "testRunCoverage": "100%",
+        "orgWideCoverage": "8%"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v49.0/tooling/sobjects/ApexTestResult/07M5500000AlYhDEAV"
+            },
+            "Id": "07M5500000AlYhDEAV",
+            "QueueItemId": "70955000001Hx8vAAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "70755000025vsVCAAY",
+            "MethodName": "generateTrackingNumber_works",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UTAAY"
+                },
+                "Id": "01p55000005h7UTAAY",
+                "Name": "UPSImplTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 30,
+            "FullName": "UPSImplTest.generateTrackingNumber_works"
+        }
+    ],
+    "coverage": {
+        "coverage": [
+            {
+                "id": "01p55000005h7UPAAY",
+                "name": "FedExImpl",
+                "totalLines": 2,
+                "lines": {
+                    "6": 1,
+                    "7": 1
+                },
+                "totalCovered": 2,
+                "coveredPercent": 100
+            },
+            {
+                "id": "01p55000005h7USAAY",
+                "name": "UPSImpl",
+                "totalLines": 2,
+                "lines": {
+                    "6": 1,
+                    "7": 1
+                },
+                "totalCovered": 2,
+                "coveredPercent": 100
+            }
+        ],
+        "records": [
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/714550000112zObAAI"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UQAAY"
+                    },
+                    "Id": "01p55000005h7UQAAY",
+                    "Name": "FedExImplTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        6,
+                        7
+                    ],
+                    "uncoveredLines": []
+                },
+                "TestMethodName": "generateTrackingNumber_works",
+                "NumLinesCovered": 2,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UPAAY"
+                    },
+                    "Id": "01p55000005h7UPAAY",
+                    "Name": "FedExImpl"
+                },
+                "NumLinesUncovered": 0
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/714550000112zOgAAI"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UTAAY"
+                    },
+                    "Id": "01p55000005h7UTAAY",
+                    "Name": "UPSImplTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        6,
+                        7
+                    ],
+                    "uncoveredLines": []
+                },
+                "TestMethodName": "generateTrackingNumber_works",
+                "NumLinesCovered": 2,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7USAAY"
+                    },
+                    "Id": "01p55000005h7USAAY",
+                    "Name": "UPSImpl"
+                },
+                "NumLinesUncovered": 0
+            }
+        ],
+        "summary": {
+            "totalLines": 4,
+            "coveredLines": 4,
+            "testRunCoverage": "100%",
+            "orgWideCoverage": "8%"
+        }
+    }
+}

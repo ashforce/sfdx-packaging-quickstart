@@ -1,0 +1,415 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Oct 10, 2020 4:55 PM",
+        "testExecutionTime": "66 ms",
+        "testTotalTime": "66 ms",
+        "commandTime": "10459 ms",
+        "hostname": "https://efficiency-inspiration-5373.cs41.my.salesforce.com/",
+        "orgId": "00D55000000Ib7AEAS",
+        "username": "test-ecxjsxmknsmv@example.com",
+        "testRunId": "70755000025vsks",
+        "userId": "00555000006KpXXAA0",
+        "testRunCoverage": "80%",
+        "orgWideCoverage": "80%"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v49.0/tooling/sobjects/ApexTestResult/07M5500000AlYhNEAV"
+            },
+            "Id": "07M5500000AlYhNEAV",
+            "QueueItemId": "70955000001Hx90AAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "70755000025vsksAAA",
+            "MethodName": "generateTrackingNumber_works",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UMAAY"
+                },
+                "Id": "01p55000005h7UMAAY",
+                "Name": "ShippingControllerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 66,
+            "FullName": "ShippingControllerTest.generateTrackingNumber_works"
+        }
+    ],
+    "coverage": {
+        "coverage": [
+            {
+                "id": "01p55000005h7ULAAY",
+                "name": "ShippingController",
+                "totalLines": 2,
+                "lines": {
+                    "7": 1,
+                    "9": 1
+                },
+                "totalCovered": 2,
+                "coveredPercent": 100
+            },
+            {
+                "id": "01p55000005h7UCAAY",
+                "name": "ShippingInjector",
+                "totalLines": 29,
+                "lines": {
+                    "3": 1,
+                    "9": 0,
+                    "10": 0,
+                    "11": 0,
+                    "13": 0,
+                    "14": 0,
+                    "22": 1,
+                    "23": 1,
+                    "24": 0,
+                    "26": 1,
+                    "36": 1,
+                    "38": 1,
+                    "42": 1,
+                    "43": 1,
+                    "44": 1,
+                    "46": 1,
+                    "47": 1,
+                    "48": 0,
+                    "57": 1,
+                    "60": 1,
+                    "68": 1,
+                    "70": 1,
+                    "72": 1,
+                    "73": 1,
+                    "74": 1,
+                    "75": 1,
+                    "76": 1,
+                    "77": 1,
+                    "81": 1
+                },
+                "totalCovered": 22,
+                "coveredPercent": 75.86206896551724
+            },
+            {
+                "id": "01p55000005h7UAAAY",
+                "name": "ServiceImplementationSettings",
+                "totalLines": 12,
+                "lines": {
+                    "4": 1,
+                    "6": 1,
+                    "8": 1,
+                    "10": 1,
+                    "11": 1,
+                    "12": 0,
+                    "14": 1,
+                    "16": 1,
+                    "21": 1,
+                    "24": 0,
+                    "29": 1,
+                    "31": 1
+                },
+                "totalCovered": 10,
+                "coveredPercent": 83.33333333333334
+            },
+            {
+                "id": "01p55000005h7USAAY",
+                "name": "UPSImpl",
+                "totalLines": 2,
+                "lines": {
+                    "6": 1,
+                    "7": 1
+                },
+                "totalCovered": 2,
+                "coveredPercent": 100
+            },
+            {
+                "id": "01p55000005h7UPAAY",
+                "name": "FedExImpl",
+                "totalLines": 2,
+                "lines": {
+                    "6": 1,
+                    "7": 1
+                },
+                "totalCovered": 2,
+                "coveredPercent": 100
+            }
+        ],
+        "records": [
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/714550000112zOlAAI"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UMAAY"
+                    },
+                    "Id": "01p55000005h7UMAAY",
+                    "Name": "ShippingControllerTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        7,
+                        9
+                    ],
+                    "uncoveredLines": []
+                },
+                "TestMethodName": "generateTrackingNumber_works",
+                "NumLinesCovered": 2,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7ULAAY"
+                    },
+                    "Id": "01p55000005h7ULAAY",
+                    "Name": "ShippingController"
+                },
+                "NumLinesUncovered": 0
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/714550000112zOmAAI"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UMAAY"
+                    },
+                    "Id": "01p55000005h7UMAAY",
+                    "Name": "ShippingControllerTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        3,
+                        22,
+                        23,
+                        26,
+                        36,
+                        38,
+                        42,
+                        43,
+                        44,
+                        46,
+                        47,
+                        57,
+                        60,
+                        68,
+                        70,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        81
+                    ],
+                    "uncoveredLines": [
+                        9,
+                        10,
+                        11,
+                        13,
+                        14,
+                        24,
+                        48
+                    ]
+                },
+                "TestMethodName": "generateTrackingNumber_works",
+                "NumLinesCovered": 22,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UCAAY"
+                    },
+                    "Id": "01p55000005h7UCAAY",
+                    "Name": "ShippingInjector"
+                },
+                "NumLinesUncovered": 7
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/714550000112zOnAAI"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UMAAY"
+                    },
+                    "Id": "01p55000005h7UMAAY",
+                    "Name": "ShippingControllerTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        6,
+                        8,
+                        10,
+                        11,
+                        14,
+                        16,
+                        21,
+                        29,
+                        31
+                    ],
+                    "uncoveredLines": [
+                        12,
+                        24
+                    ]
+                },
+                "TestMethodName": "generateTrackingNumber_works",
+                "NumLinesCovered": 10,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UAAAY"
+                    },
+                    "Id": "01p55000005h7UAAAY",
+                    "Name": "ServiceImplementationSettings"
+                },
+                "NumLinesUncovered": 2
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/714550000112zOoAAI"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UMAAY"
+                    },
+                    "Id": "01p55000005h7UMAAY",
+                    "Name": "ShippingControllerTest"
+                },
+                "Coverage": {
+                    "coveredLines": [],
+                    "uncoveredLines": [
+                        6,
+                        7
+                    ]
+                },
+                "TestMethodName": "generateTrackingNumber_works",
+                "NumLinesCovered": 0,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7USAAY"
+                    },
+                    "Id": "01p55000005h7USAAY",
+                    "Name": "UPSImpl"
+                },
+                "NumLinesUncovered": 2
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/714550000112zOpAAI"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UMAAY"
+                    },
+                    "Id": "01p55000005h7UMAAY",
+                    "Name": "ShippingControllerTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        6,
+                        7
+                    ],
+                    "uncoveredLines": []
+                },
+                "TestMethodName": "generateTrackingNumber_works",
+                "NumLinesCovered": 2,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UPAAY"
+                    },
+                    "Id": "01p55000005h7UPAAY",
+                    "Name": "FedExImpl"
+                },
+                "NumLinesUncovered": 0
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/714550000112zObAAI"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UQAAY"
+                    },
+                    "Id": "01p55000005h7UQAAY",
+                    "Name": "FedExImplTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        6,
+                        7
+                    ],
+                    "uncoveredLines": []
+                },
+                "TestMethodName": "generateTrackingNumber_works",
+                "NumLinesCovered": 2,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UPAAY"
+                    },
+                    "Id": "01p55000005h7UPAAY",
+                    "Name": "FedExImpl"
+                },
+                "NumLinesUncovered": 0
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/714550000112zOgAAI"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7UTAAY"
+                    },
+                    "Id": "01p55000005h7UTAAY",
+                    "Name": "UPSImplTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        6,
+                        7
+                    ],
+                    "uncoveredLines": []
+                },
+                "TestMethodName": "generateTrackingNumber_works",
+                "NumLinesCovered": 2,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p55000005h7USAAY"
+                    },
+                    "Id": "01p55000005h7USAAY",
+                    "Name": "UPSImpl"
+                },
+                "NumLinesUncovered": 0
+            }
+        ],
+        "summary": {
+            "totalLines": 47,
+            "coveredLines": 38,
+            "testRunCoverage": "80%",
+            "orgWideCoverage": "80%"
+        }
+    }
+}

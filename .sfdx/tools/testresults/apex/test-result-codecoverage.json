@@ -1,0 +1,94 @@
+[
+    {
+        "id": "01p55000005h7UCAAY",
+        "name": "ShippingInjector",
+        "totalLines": 29,
+        "lines": {
+            "3": 1,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "13": 0,
+            "14": 0,
+            "22": 1,
+            "23": 1,
+            "24": 0,
+            "26": 1,
+            "36": 1,
+            "38": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "46": 1,
+            "47": 1,
+            "48": 0,
+            "57": 1,
+            "60": 1,
+            "68": 1,
+            "70": 1,
+            "72": 1,
+            "73": 1,
+            "74": 1,
+            "75": 1,
+            "76": 1,
+            "77": 1,
+            "81": 1
+        },
+        "totalCovered": 22,
+        "coveredPercent": 75.86206896551724
+    },
+    {
+        "id": "01p55000005h7UAAAY",
+        "name": "ServiceImplementationSettings",
+        "totalLines": 12,
+        "lines": {
+            "4": 1,
+            "6": 1,
+            "8": 1,
+            "10": 1,
+            "11": 1,
+            "12": 0,
+            "14": 1,
+            "16": 1,
+            "21": 1,
+            "24": 0,
+            "29": 1,
+            "31": 1
+        },
+        "totalCovered": 10,
+        "coveredPercent": 83.33333333333334
+    },
+    {
+        "id": "01p55000005h7UPAAY",
+        "name": "FedExImpl",
+        "totalLines": 2,
+        "lines": {
+            "6": 1,
+            "7": 1
+        },
+        "totalCovered": 2,
+        "coveredPercent": 100
+    },
+    {
+        "id": "01p55000005h7USAAY",
+        "name": "UPSImpl",
+        "totalLines": 2,
+        "lines": {
+            "6": 1,
+            "7": 1
+        },
+        "totalCovered": 2,
+        "coveredPercent": 100
+    },
+    {
+        "id": "01p55000005h7ULAAY",
+        "name": "ShippingController",
+        "totalLines": 2,
+        "lines": {
+            "7": 1,
+            "9": 1
+        },
+        "totalCovered": 2,
+        "coveredPercent": 100
+    }
+]

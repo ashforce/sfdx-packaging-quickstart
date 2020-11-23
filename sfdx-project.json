@@ -1,0 +1,58 @@
+{
+    "packageDirectories": [
+        {
+            "path": "package-di",
+            "package": "quick-start-package-di",
+            "versionName": "Quick Start Package DI - Summer - 2020",
+            "versionDescription": "Base package for injecting registered implementation via custom metadata at runtime",
+            "versionNumber": "1.0.0.NEXT",
+            "definitionFile": "config/scratch-org-def.json",
+            "default": true
+        },
+        {   
+            "path": "package-a",
+            "package": "quick-start-package-a",
+            "versionName": "Quick Start Package A - Summer - 2020",
+            "versionDescription": "Implements Stub Apex Controller enabling runtime DI for its implementation via another package",
+            "versionNumber": "1.0.0.NEXT",
+            "definitionFile": "config/scratch-org-def.json",
+            "dependencies": [
+                {
+                    "package": "quick-start-package-di",
+                    "versionNumber": "1.0.0.LATEST"
+                }
+            ],
+            "default": false
+        },
+        {
+            "path": "package-b",
+            "package": "quick-start-package-b",
+            "versionName": "Quick Start Package B - Summer - 2020",
+            "versionDescription": "Implements an interface exposed by another package to fullfil a dependency",
+            "versionNumber": "1.0.0.NEXT",
+            "definitionFile": "config/scratch-org-def.json",
+            "dependencies": [
+                {
+                    "package": "quick-start-package-di",
+                    "versionNumber": "1.0.0.LATEST"
+                },
+                {
+                    "package": "quick-start-package-a",
+                    "versionNumber": "1.0.0.LATEST"
+                }
+            ],
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "49.0",
+    "packageAliases": {
+        "quick-start-package-di": "0Ho3s0000004CFaCAM",
+        "quick-start-package-di@1.0.0-1": "04t3s000003GeqrAAC",
+        "quick-start-package-a": "0Ho3s0000004CFfCAM",
+        "quick-start-package-a@1.0.0-1": "04t3s000003GeqwAAC",
+        "quick-start-package-b": "0Ho3s0000004CFkCAM",
+        "quick-start-package-b@1.0.0-1": "04t3s000003Ger1AAC"
+    }
+}

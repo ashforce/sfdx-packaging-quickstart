@@ -1,0 +1,107 @@
+{
+    "serverMaxRevisionCounter": 71,
+    "sourceMembers": {
+        "CustomField__Service_Implementation__mdt.Shipping__c": {
+            "serverRevisionCounter": 33,
+            "lastRetrievedFromServer": 33,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "Profile__Admin": {
+            "serverRevisionCounter": 70,
+            "lastRetrievedFromServer": null,
+            "memberType": "Profile",
+            "isNameObsolete": false
+        },
+        "Layout__Service_Implementation__mdt-Service Implementation Layout": {
+            "serverRevisionCounter": 38,
+            "lastRetrievedFromServer": 38,
+            "memberType": "Layout",
+            "isNameObsolete": false
+        },
+        "CustomObject__Service_Implementation__mdt": {
+            "serverRevisionCounter": 37,
+            "lastRetrievedFromServer": 37,
+            "memberType": "CustomObject",
+            "isNameObsolete": false
+        },
+        "ApexClass__ServiceImplementationSettings": {
+            "serverRevisionCounter": 34,
+            "lastRetrievedFromServer": 34,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "ApexClass__ServiceImplementationSettingsTest": {
+            "serverRevisionCounter": 46,
+            "lastRetrievedFromServer": 46,
+            "memberType": "ApexClass",
+            "isNameObsolete": true
+        },
+        "ApexClass__ShippingInjector": {
+            "serverRevisionCounter": 59,
+            "lastRetrievedFromServer": 59,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "ApexClass__IShippingService": {
+            "serverRevisionCounter": 43,
+            "lastRetrievedFromServer": 43,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "ApexClass__ShippingController": {
+            "serverRevisionCounter": 69,
+            "lastRetrievedFromServer": 69,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "ApexClass__ShippingControllerTest": {
+            "serverRevisionCounter": 71,
+            "lastRetrievedFromServer": 71,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "ApexClass__FedExImpl": {
+            "serverRevisionCounter": 53,
+            "lastRetrievedFromServer": 53,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "ApexClass__FedExImplTest": {
+            "serverRevisionCounter": 61,
+            "lastRetrievedFromServer": 61,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "ApexClass__InvalidShippingImpl": {
+            "serverRevisionCounter": 55,
+            "lastRetrievedFromServer": 55,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "ApexClass__UPSImpl": {
+            "serverRevisionCounter": 56,
+            "lastRetrievedFromServer": 56,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "ApexClass__UPSImplTest": {
+            "serverRevisionCounter": 57,
+            "lastRetrievedFromServer": 57,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        },
+        "CustomMetadata__Service_Implementation.ShippingServiceImpl": {
+            "serverRevisionCounter": 52,
+            "lastRetrievedFromServer": 52,
+            "memberType": "CustomMetadata",
+            "isNameObsolete": false
+        },
+        "ApexClass__ShippingTest": {
+            "serverRevisionCounter": 67,
+            "lastRetrievedFromServer": 67,
+            "memberType": "ApexClass",
+            "isNameObsolete": false
+        }
+    }
+}

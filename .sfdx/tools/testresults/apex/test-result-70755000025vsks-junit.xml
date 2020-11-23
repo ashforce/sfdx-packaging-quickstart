@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-10-10T16:55:22-07:00" hostname="https://efficiency-inspiration-5373.cs41.my.salesforce.com/" tests="1" failures="0"  errors="0"  time="0.07">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="1"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Oct 10, 2020 4:55 PM"/>
+            <property name="testExecutionTime" value="0.07 s"/>
+            <property name="testTotalTime" value="0.07 s"/>
+            <property name="commandTime" value="10.46 s"/>
+            <property name="hostname" value="https://efficiency-inspiration-5373.cs41.my.salesforce.com/"/>
+            <property name="orgId" value="00D55000000Ib7AEAS"/>
+            <property name="username" value="test-ecxjsxmknsmv@example.com"/>
+            <property name="testRunId" value="70755000025vsks"/>
+            <property name="userId" value="00555000006KpXXAA0"/>
+            <property name="testRunCoverage" value="80%"/>
+            <property name="orgWideCoverage" value="80%"/>
+        </properties>
+        <testcase name="generateTrackingNumber_works" classname="ShippingControllerTest" time="0.07">
+        </testcase>
+    </testsuite>
+</testsuites>
